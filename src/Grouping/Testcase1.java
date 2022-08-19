@@ -36,6 +36,7 @@ public class Testcase1 {
 	@Test(groups="Regression")
 	public void Test3() {
 		System.out.println("test 3");
+		maintain command 
 	}
 
 }
