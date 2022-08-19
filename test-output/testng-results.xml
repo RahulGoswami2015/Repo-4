@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-14T21:16:37 IST" name="Cross Browser Suit" finished-at="2022-08-14T21:17:01 IST" duration-ms="23727">
+    <groups>
+    </groups>
+    <test started-at="2022-08-14T21:16:37 IST" name="chrome Test" finished-at="2022-08-14T21:16:43 IST" duration-ms="6030">
+      <class name="CrossBrowserTesting.Practice1">
+        <test-method signature="crossbrowsertesting(java.lang.String)[pri:1, instance:CrossBrowserTesting.Practice1@1184ab05]" started-at="2022-08-14T21:16:37 IST" name="crossbrowsertesting" finished-at="2022-08-14T21:16:43 IST" duration-ms="5423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossbrowsertesting -->
+        <test-method signature="verifiURL()[pri:2, instance:CrossBrowserTesting.Practice1@1184ab05]" started-at="2022-08-14T21:16:43 IST" name="verifiURL" finished-at="2022-08-14T21:16:43 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifiURL -->
+        <test-method signature="verifyTitle()[pri:3, instance:CrossBrowserTesting.Practice1@1184ab05]" started-at="2022-08-14T21:16:43 IST" name="verifyTitle" finished-at="2022-08-14T21:16:43 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="userName()[pri:4, instance:CrossBrowserTesting.Practice1@1184ab05]" started-at="2022-08-14T21:16:43 IST" name="userName" finished-at="2022-08-14T21:16:43 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName -->
+        <test-method signature="password()[pri:5, instance:CrossBrowserTesting.Practice1@1184ab05]" started-at="2022-08-14T21:16:43 IST" name="password" finished-at="2022-08-14T21:16:43 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="clickonlogin()[pri:6, instance:CrossBrowserTesting.Practice1@1184ab05]" started-at="2022-08-14T21:16:43 IST" name="clickonlogin" finished-at="2022-08-14T21:16:43 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonlogin -->
+      </class> <!-- CrossBrowserTesting.Practice1 -->
+    </test> <!-- chrome Test -->
+    <test started-at="2022-08-14T21:16:43 IST" name="firefox Test" finished-at="2022-08-14T21:17:01 IST" duration-ms="17635">
+      <class name="KeyWordTestNG.CrossBrowserTesting">
+        <test-method signature="Crossbrowser(java.lang.String)[pri:1, instance:KeyWordTestNG.CrossBrowserTesting@2145b572]" started-at="2022-08-14T21:16:43 IST" name="Crossbrowser" finished-at="2022-08-14T21:16:56 IST" duration-ms="12181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Crossbrowser -->
+        <test-method signature="verifycurrentURL()[pri:2, instance:KeyWordTestNG.CrossBrowserTesting@2145b572]" started-at="2022-08-14T21:16:56 IST" name="verifycurrentURL" finished-at="2022-08-14T21:16:56 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycurrentURL -->
+        <test-method signature="varifypageTitle()[pri:3, instance:KeyWordTestNG.CrossBrowserTesting@2145b572]" started-at="2022-08-14T21:16:56 IST" name="varifypageTitle" finished-at="2022-08-14T21:16:56 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifypageTitle -->
+        <test-method signature="varifyfieldname()[pri:4, instance:KeyWordTestNG.CrossBrowserTesting@2145b572]" started-at="2022-08-14T21:16:56 IST" name="varifyfieldname" finished-at="2022-08-14T21:16:56 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyfieldname -->
+        <test-method signature="varifypassword()[pri:5, instance:KeyWordTestNG.CrossBrowserTesting@2145b572]" started-at="2022-08-14T21:16:56 IST" name="varifypassword" finished-at="2022-08-14T21:16:56 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifypassword -->
+        <test-method signature="clickonlogin()[pri:6, instance:KeyWordTestNG.CrossBrowserTesting@2145b572]" started-at="2022-08-14T21:16:56 IST" name="clickonlogin" finished-at="2022-08-14T21:17:01 IST" duration-ms="4959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonlogin -->
+      </class> <!-- KeyWordTestNG.CrossBrowserTesting -->
+    </test> <!-- firefox Test -->
+  </suite> <!-- Cross Browser Suit -->
+</testng-results>
